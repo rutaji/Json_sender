@@ -1,0 +1,11 @@
+<h1>Input</h1>
+<form action="" method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.input(cols=200, rows=30) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+</form>
+
+<h1>Response</h1>
+<p>Code: {{ output_code }}</p>

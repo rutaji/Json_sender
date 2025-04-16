@@ -7,5 +7,13 @@
         <p>{{ form.submit() }}</p>
 </form>
 
-<h1>Response</h1>
+<h2>Response</h2>
+{% if  output_code != 0 %}
 <p>Code: {{ output_code }}</p>
+<p>{{  output }}</p>
+{% endif %}
+<h2>Examples</h2>
+<a href="/example0">example0</a>
+<a href="/example1">example1</a>
+<a href="/example2">example2</a>
+<a href="/example3">example3</a>

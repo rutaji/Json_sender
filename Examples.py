@@ -3,7 +3,8 @@ import time
 
 today = int(time.time())
 
-example1 = [
+example = list()
+example.append([
     {
         "name": "Nvidia",
         "date": today,
@@ -22,5 +23,24 @@ example1 = [
         "rating": 0,
         "sale": 1
     }
- ]
+ ])
+
+example.append([
+    {
+        "name": "Nvidia",
+        "date": today,
+        "rating":0,
+        "sale":0
+    }
+ ])
+example.append([
+
+ ])
+example.append([
+    {
+        "name": "errororor",
+        "date": today,
+        "rating":-8,
+    }
+ ])
 
